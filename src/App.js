@@ -142,7 +142,7 @@ function App() {
                   You can still buy and trade TBC NFTs on{" "}
                   <a
                     target={""}
-                    href={"https://opensea.io/collection/the-bee-collaborative"}
+                    href={"https://testnets.opensea.io/collection/the-bee-hive"}
                   >
                     Opensea.io
                   </a>
