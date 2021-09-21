@@ -663,7 +663,7 @@
   "sourceMap": "69:367:13:-:0;;;94:33;;;-1:-1:-1;;;;;;94:33:13;117:10;94:33;;;69:367;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "69:367:13:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;132:36;;;;;;;;;983:25:15;;;971:2;956:18;132:36:13;;;;;;;;94:33;;;;;-1:-1:-1;;;;;94:33:13;;;;;;-1:-1:-1;;;;;373:32:15;;;355:51;;343:2;328:18;94:33:13;310:102:15;328:105:13;;;;;;:::i;:::-;;:::i;:::-;;;234:5;;-1:-1:-1;;;;;234:5:13;220:10;:19;204:104;;;;-1:-1:-1;;;204:104:13;;619:2:15;204:104:13;;;601:21:15;658:2;638:18;;;631:30;697:34;677:18;;;670:62;-1:-1:-1;;;748:18:15;;;741:49;807:19;;204:104:13;;;;;;;;391:24:::1;:36:::0;328:105::o;14:190:15:-;73:6;126:2;114:9;105:7;101:23;97:32;94:2;;;147:6;139;132:22;94:2;-1:-1:-1;175:23:15;;84:120;-1:-1:-1;84:120:15:o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract Migrations {\r\n  address public owner = msg.sender;\r\n  uint public last_completed_migration;\r\n\r\n  modifier restricted() {\r\n    require(\r\n      msg.sender == owner,\r\n      \"This function is restricted to the contract's owner\"\r\n    );\r\n    _;\r\n  }\r\n\r\n  function setCompleted(uint completed) public restricted {\r\n    last_completed_migration = completed;\r\n  }\r\n}\r\n",
-  "sourcePath": "C:\\Users\\nolan\\nft\\FullstackMassiveNFTDevelopment\\MintingStationDApp\\contracts\\Migrations.sol",
+  "sourcePath": "C:\\Users\\nolan\\nft\\beez\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -1462,7 +1462,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-09-21T01:52:29.249Z",
+  "updatedAt": "2021-09-21T02:21:51.620Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
