@@ -208,6 +208,15 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+          <s.TextDescription style={{ textAlign: "center" }}>
+            View the existing collection on {" "}
+            <a
+              target={""}
+              href={"https://testnets.opensea.io/collection/the-bee-hive"}
+            >
+              Opensea.io
+            </a>
+          </s.TextDescription>
           <s.TextDescription style={{ textAlign: "center", fontSize: 18 }}>
             50% of all proceeds go towards Charity for the bees.
           </s.TextDescription>
