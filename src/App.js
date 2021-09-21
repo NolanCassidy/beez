@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
@@ -69,7 +69,7 @@ function App() {
       .mint(blockchain.account, _amount)
       .send({
         gasLimit: "285000",
-        to: "0x688db0131c807a3495c23bc1b25726a76ea31f49",
+        to: "0x2e3631E3fb32Cc9f17bBE61881C057fD982FB476",
         from: blockchain.account,
         value: blockchain.web3.utils.toWei((.02 * _amount).toString(), "ether"),
       })
@@ -88,7 +88,8 @@ function App() {
   };
 
   const getData = () => {
-    if (blockchain.account !== "" && blockchain.smartContract !== null) {
+    //if (blockchain.account !== "" && blockchain.smartContract !== null) {
+    if (blockchain.smartContract !== null) {
       dispatch(fetchData(blockchain.account));
     }
   };
@@ -201,11 +202,11 @@ function App() {
         <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 18 }}>
-            50% of all proceeds go towards Charity and adding Liquidity to TBC Token
+            50% of all proceeds go towards Charity for the bees.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription style={{ textAlign: "center", fontSize: 14 }}>
-            Bee Rewarded to help Save the Bees #TBCToken<p/>*.*.*Launching_Soon*.*.*
+            Bee Rewarded to help Save the Bees #BEEToken<p/>*.*.*Launching_Soon*.*.*
           </s.TextDescription>
         </s.Container>
       </s.Container>
