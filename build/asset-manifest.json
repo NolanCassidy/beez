@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/FullStackMassiveNFTDevelopment/static/css/main.4ffc00ab.chunk.css",
-    "main.js": "/FullStackMassiveNFTDevelopment/static/js/main.906ed798.chunk.js",
-    "main.js.map": "/FullStackMassiveNFTDevelopment/static/js/main.906ed798.chunk.js.map",
-    "runtime-main.js": "/FullStackMassiveNFTDevelopment/static/js/runtime-main.7dc05aa7.js",
-    "runtime-main.js.map": "/FullStackMassiveNFTDevelopment/static/js/runtime-main.7dc05aa7.js.map",
-    "static/js/2.7db0223f.chunk.js": "/FullStackMassiveNFTDevelopment/static/js/2.7db0223f.chunk.js",
-    "static/js/2.7db0223f.chunk.js.map": "/FullStackMassiveNFTDevelopment/static/js/2.7db0223f.chunk.js.map",
-    "static/js/3.a64233a7.chunk.js": "/FullStackMassiveNFTDevelopment/static/js/3.a64233a7.chunk.js",
-    "static/js/3.a64233a7.chunk.js.map": "/FullStackMassiveNFTDevelopment/static/js/3.a64233a7.chunk.js.map",
-    "index.html": "/FullStackMassiveNFTDevelopment/index.html",
-    "static/css/main.4ffc00ab.chunk.css.map": "/FullStackMassiveNFTDevelopment/static/css/main.4ffc00ab.chunk.css.map",
-    "static/js/2.7db0223f.chunk.js.LICENSE.txt": "/FullStackMassiveNFTDevelopment/static/js/2.7db0223f.chunk.js.LICENSE.txt",
-    "static/media/1.75f03515.png": "/FullStackMassiveNFTDevelopment/static/media/1.75f03515.png",
-    "static/media/reset.css": "/FullStackMassiveNFTDevelopment/static/media/PressStart2P-Regular.f2341734.woff"
+    "main.css": "/beez/static/css/main.f6d144bd.chunk.css",
+    "main.js": "/beez/static/js/main.052e3069.chunk.js",
+    "main.js.map": "/beez/static/js/main.052e3069.chunk.js.map",
+    "runtime-main.js": "/beez/static/js/runtime-main.0335dea3.js",
+    "runtime-main.js.map": "/beez/static/js/runtime-main.0335dea3.js.map",
+    "static/js/2.cafeb1c2.chunk.js": "/beez/static/js/2.cafeb1c2.chunk.js",
+    "static/js/2.cafeb1c2.chunk.js.map": "/beez/static/js/2.cafeb1c2.chunk.js.map",
+    "static/js/3.a64233a7.chunk.js": "/beez/static/js/3.a64233a7.chunk.js",
+    "static/js/3.a64233a7.chunk.js.map": "/beez/static/js/3.a64233a7.chunk.js.map",
+    "index.html": "/beez/index.html",
+    "static/css/main.f6d144bd.chunk.css.map": "/beez/static/css/main.f6d144bd.chunk.css.map",
+    "static/js/2.cafeb1c2.chunk.js.LICENSE.txt": "/beez/static/js/2.cafeb1c2.chunk.js.LICENSE.txt",
+    "static/media/1.75f03515.png": "/beez/static/media/1.75f03515.png",
+    "static/media/reset.css": "/beez/static/media/PressStart2P-Regular.f2341734.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.7dc05aa7.js",
-    "static/js/2.7db0223f.chunk.js",
-    "static/css/main.4ffc00ab.chunk.css",
-    "static/js/main.906ed798.chunk.js"
+    "static/js/runtime-main.0335dea3.js",
+    "static/js/2.cafeb1c2.chunk.js",
+    "static/css/main.f6d144bd.chunk.css",
+    "static/js/main.052e3069.chunk.js"
   ]
 }
