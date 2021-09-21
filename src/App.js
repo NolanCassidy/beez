@@ -88,8 +88,7 @@ function App() {
   };
 
   const getData = () => {
-    //if (blockchain.account !== "" && blockchain.smartContract !== null) {
-    if (blockchain.smartContract !== null) {
+    if (blockchain.account !== "" && blockchain.smartContract !== null) {
       dispatch(fetchData(blockchain.account));
     }
   };
@@ -104,7 +103,7 @@ function App() {
         <s.TextTitle
           style={{ textAlign: "center", fontSize: 36, fontWeight: "bold" }}
         >
-          The Bee Collaborative NFT Minting Hive
+          The Bee NFT Minting Hive
 
         </s.TextTitle>
         <s.SpacerMedium />
@@ -112,11 +111,19 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={i1} />
             <s.SpacerMedium />
-            <s.TextTitle
-              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
-            >
-              {data.totalSupply}/10
-            </s.TextTitle>
+            { blockchain.account !== "" && blockchain.smartContract !== null ?
+              <s.TextTitle
+                style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
+              >
+                {data.totalSupply}/10
+              </s.TextTitle>
+            :
+              <s.TextTitle
+                style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
+              >
+                Please connect your wallet
+              </s.TextTitle>
+            }
           </s.Container>
           <s.SpacerMedium />
           <s.Container
